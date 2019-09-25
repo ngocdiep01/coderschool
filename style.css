@@ -1,0 +1,26 @@
+body{
+  background-color: red;
+}
+section {
+  padding: 25px;
+  min-height: 800px;
+  background-color: blue;
+}
+section:nth-child(odd) {
+  background-color: white;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Layout > .card img{
+  margin-bottom: 15px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
